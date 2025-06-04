@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,CP_Elec_6.3x5.4,1,47uF,
+"C2, C3",0603,2,100nF,
+C4,CP_Elec_10x10,1,47uF,
+D1,D_SMA,1,1SMA4743A,
+D2,D_SMA,1,1N5824,
+D3,0805,1,LED,
+F1,0603,1,MF-MSMF0503,
+L1,L_Bourns_SRP1050WA,1,33uH,
+R1,0603,1,330R,
+R2,0805,1,1k,
+RV1,Potentiometer_Bourns_3296W_Vertical,1,50k,
+VR1,DPAK170P1435X465-6N,1,XL6009,
