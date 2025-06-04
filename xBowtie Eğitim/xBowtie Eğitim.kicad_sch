@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "53b0bffa-b1c1-4397-a7e2-f711f6cd60f3")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 140.97 27.94)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08aebcc3-aac1-429d-b4ce-845ac2dda7d0")
+		(property "Sheetname" "Microcontroller"
+			(at 140.97 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 140.97 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xBowtie Eğitim"
+				(path "/53b0bffa-b1c1-4397-a7e2-f711f6cd60f3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 27.94)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "293d28ad-f4c9-4f47-b720-e4af1cdb22e6")
+		(property "Sheetname" "Cover"
+			(at 71.12 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cover.kicad_sch"
+			(at 71.12 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xBowtie Eğitim"
+				(path "/53b0bffa-b1c1-4397-a7e2-f711f6cd60f3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 27.94)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49cc4e02-092d-4004-a5f2-813979e5a36f")
+		(property "Sheetname" "Sensor Board"
+			(at 173.99 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor_board.kicad_sch"
+			(at 173.99 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xBowtie Eğitim"
+				(path "/53b0bffa-b1c1-4397-a7e2-f711f6cd60f3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 27.94)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "868a993e-3f20-4428-8229-2135ccc07ce1")
+		(property "Sheetname" "Block Diagram"
+			(at 36.83 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Block Diagram.kicad_sch"
+			(at 36.83 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xBowtie Eğitim"
+				(path "/53b0bffa-b1c1-4397-a7e2-f711f6cd60f3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 27.94)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efea3c46-4403-4dd6-947c-1fcbf6cafd8b")
+		(property "Sheetname" "Power Management"
+			(at 102.87 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_management.kicad_sch"
+			(at 102.87 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xBowtie Eğitim"
+				(path "/53b0bffa-b1c1-4397-a7e2-f711f6cd60f3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
