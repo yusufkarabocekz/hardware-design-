@@ -1,0 +1,358 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b5255720-3318-408e-b70c-920dbe8c4997")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Telemetry\nLoRa E22900T22D"
+		(exclude_from_sim no)
+		(at 207.01 118.11 0)
+		(size 31.75 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "00b2e116-621b-4460-bb3d-dc7987e9bcbc")
+	)
+	(text_box "Barometer\nMS5611\n"
+		(exclude_from_sim no)
+		(at 99.06 118.11 0)
+		(size 31.75 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "0d905d35-5800-4373-b714-1c68e60288cf")
+	)
+	(text_box "GPS\nNEO-M8N"
+		(exclude_from_sim no)
+		(at 171.45 118.11 0)
+		(size 30.48 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "18571eb5-c804-4092-9efc-b6c2f9e93a97")
+	)
+	(text_box "5V Out\nLM2596 5.0\n"
+		(exclude_from_sim no)
+		(at 87.63 30.48 0)
+		(size 27.94 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "20eff78b-1acb-4d77-bfd6-f3d0d82665b1")
+	)
+	(text_box "9-axis IMU\nMPU9250\n"
+		(exclude_from_sim no)
+		(at 134.62 118.11 0)
+		(size 31.75 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "90208ded-8901-46bb-960f-cb11b7fd448f")
+	)
+	(text_box "MCU\nMega 2560\n"
+		(exclude_from_sim no)
+		(at 143.51 76.2 0)
+		(size 35.56 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "ba7ea76c-e9c3-4ed1-ad57-7794d93382df")
+	)
+	(text_box "3S Lipo input\n"
+		(exclude_from_sim no)
+		(at 52.07 41.91 0)
+		(size 22.86 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d635ea6e-ee30-49e5-adf1-e2747c20918f")
+	)
+	(text_box "3.3V Out\nLM2596 3.3\n"
+		(exclude_from_sim no)
+		(at 87.63 50.8 0)
+		(size 27.94 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "ef637bc4-f971-4f30-9e2a-38c537bf089f")
+	)
+	(sheet
+		(at 120.65 172.72)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "043a71f6-542d-4b7b-8095-67b75b787556")
+		(property "Sheetname" "Sensors"
+			(at 120.65 172.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 120.65 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UKB_Ballica"
+				(path "/b5255720-3318-408e-b70c-920dbe8c4997"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 147.32)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5552fe63-1857-4c3f-add3-98d852cb57e6")
+		(property "Sheetname" "Connectors"
+			(at 120.65 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 120.65 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UKB_Ballica"
+				(path "/b5255720-3318-408e-b70c-920dbe8c4997"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 147.32)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1e85fe8-40bb-408d-87ad-7b496c7554f6")
+		(property "Sheetname" "Regulators"
+			(at 74.93 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulators.kicad_sch"
+			(at 74.93 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UKB_Ballica"
+				(path "/b5255720-3318-408e-b70c-920dbe8c4997"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 172.72)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb7f5d0e-8456-49ef-a306-971deb664f68")
+		(property "Sheetname" "MCU"
+			(at 74.93 172.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 74.93 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UKB_Ballica"
+				(path "/b5255720-3318-408e-b70c-920dbe8c4997"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

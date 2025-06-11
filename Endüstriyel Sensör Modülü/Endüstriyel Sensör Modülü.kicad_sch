@@ -1,0 +1,536 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "04318c0c-87b8-43b7-b5c8-b29744b72512")
+	(paper "A4")
+	(title_block
+		(title "Block Diagram and Sheet's")
+		(date "2025-03-16")
+		(comment 3 "Yusuf Karabocek")
+		(comment 4 "Designed by")
+	)
+	(lib_symbols)
+	(text_box "SHT31"
+		(exclude_from_sim no)
+		(at 92.71 124.46 0)
+		(size 20.32 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "1abf8148-e51d-4957-973e-6e543ea80e90")
+	)
+	(text_box "MCU \nESP32-C3-MINI\n"
+		(exclude_from_sim no)
+		(at 132.08 92.71 0)
+		(size 33.02 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "3d2282ae-ce2a-4806-afbe-145d16882397")
+	)
+	(text_box "CCS811\n"
+		(exclude_from_sim no)
+		(at 138.43 133.35 0)
+		(size 20.32 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "467ffdd0-566e-4e85-a343-3d180c82c714")
+	)
+	(text_box "APS63203\n3.3V-2A"
+		(exclude_from_sim no)
+		(at 86.36 60.96 0)
+		(size 24.13 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "4b7be8d4-612b-4e1f-a400-7b719aaccd5a")
+	)
+	(text_box "I2C\n"
+		(exclude_from_sim no)
+		(at 243.84 93.98 0)
+		(size 20.32 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "6161a6f3-19f4-450b-a31d-e1cfe65adf6d")
+	)
+	(text_box "Analog Input"
+		(exclude_from_sim no)
+		(at 185.42 124.46 0)
+		(size 20.32 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "62ebfc84-53c8-454d-803b-e2e63aeb9efc")
+	)
+	(text_box "UART\n"
+		(exclude_from_sim no)
+		(at 243.84 127 0)
+		(size 20.32 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "98549ff8-b1a4-4fd0-9947-c3a63736a204")
+	)
+	(text_box "9-24V DC INPUT\n\n"
+		(exclude_from_sim no)
+		(at 26.67 50.8 0)
+		(size 29.21 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "9a7ab998-23f2-4d4d-b5a8-a9e470e8defc")
+	)
+	(text_box "TPS54302\n5V-3A\n"
+		(exclude_from_sim no)
+		(at 86.36 39.37 0)
+		(size 24.13 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "d218c48f-fdde-4c9c-8eda-ba7d7129dee8")
+	)
+	(text_box "RS485\n"
+		(exclude_from_sim no)
+		(at 243.84 110.49 0)
+		(size 20.32 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "f246096f-e674-4a1f-af15-dd2fa8ffe498")
+	)
+	(polyline
+		(pts
+			(xy 77.47 45.72) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "1f0eafee-39e6-4732-9ad2-8d5acdebbd41")
+	)
+	(polyline
+		(pts
+			(xy 194.31 100.33) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "2cf2f7a4-b3ff-4480-901f-9cd26e9d4a3c")
+	)
+	(polyline
+		(pts
+			(xy 102.87 100.33) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "3130b467-fa18-4f06-b6cc-11f04494e54e")
+	)
+	(polyline
+		(pts
+			(xy 110.49 66.04) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "39159c1c-26b8-43e1-85a6-340f6ea0d278")
+	)
+	(polyline
+		(pts
+			(xy 194.31 100.33) (xy 243.84 100.33)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "564a2a1a-f499-43a3-b1b8-6290d4151cd1")
+	)
+	(polyline
+		(pts
+			(xy 229.87 116.84) (xy 243.84 116.84)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "69ce01e0-6a9e-4814-98d1-b956c351f7ea")
+	)
+	(polyline
+		(pts
+			(xy 77.47 67.31) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "781b6307-ad98-496e-baaf-cb996de22cde")
+	)
+	(polyline
+		(pts
+			(xy 147.32 66.04) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "816f89d4-36b1-429e-bf15-2c68b965d65e")
+	)
+	(polyline
+		(pts
+			(xy 102.87 124.46) (xy 102.87 100.33)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "89ca55b9-67f9-45f6-a736-fecfa37c77e0")
+	)
+	(polyline
+		(pts
+			(xy 194.31 124.46) (xy 194.31 100.33)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "8a1fa6b5-3313-4ae8-9f86-681fde5ff1bc")
+	)
+	(polyline
+		(pts
+			(xy 229.87 133.35) (xy 243.84 133.35)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "8f6a3136-c670-4894-ad0a-af7a36743ada")
+	)
+	(polyline
+		(pts
+			(xy 148.59 109.22) (xy 148.59 133.35)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "b62b1e00-de86-4d36-ae3f-3be605ba999d")
+	)
+	(polyline
+		(pts
+			(xy 229.87 116.84) (xy 229.87 133.35)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "c6fb2671-c2f7-4415-8b4c-c0113053ada9")
+	)
+	(polyline
+		(pts
+			(xy 77.47 55.88) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "e8638e98-e3b0-415a-bdc7-0e3125325ab2")
+	)
+	(polyline
+		(pts
+			(xy 77.47 55.88) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "ed68dcef-5a87-49d6-b952-c43b063e5b6f")
+	)
+	(polyline
+		(pts
+			(xy 229.87 100.33) (xy 229.87 116.84)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "f5b0ec3d-f904-4c66-9733-006e39de0c63")
+	)
+	(polyline
+		(pts
+			(xy 55.88 55.88) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(uuid "f914aedd-79bc-429d-ba44-a1c8625771f1")
+	)
+	(sheet
+		(at 40.64 162.56)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11e07fa9-6fb6-4fd6-8ca4-d642fafdf6c5")
+		(property "Sheetname" "Sensors"
+			(at 40.64 161.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 40.64 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Endüstriyel Sensör Modülü"
+				(path "/04318c0c-87b8-43b7-b5c8-b29744b72512"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 115.57)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1de731bd-89ab-4ecb-ae25-4b3931e3d4b1")
+		(property "Sheetname" "ESP32-Microcontroller"
+			(at 40.64 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 40.64 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Endüstriyel Sensör Modülü"
+				(path "/04318c0c-87b8-43b7-b5c8-b29744b72512"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 140.97)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b89644d1-2d80-44d4-a302-f8cc3fa19125")
+		(property "Sheetname" "Regulators"
+			(at 40.64 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulators.kicad_sch"
+			(at 40.64 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Endüstriyel Sensör Modülü"
+				(path "/04318c0c-87b8-43b7-b5c8-b29744b72512"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
