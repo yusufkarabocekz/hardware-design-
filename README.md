@@ -1,4 +1,4 @@
-<img width="798" height="866" alt="speedybee back" src="https://github.com/user-attachments/assets/93aa40b3-4b8f-4350-b1b2-243fc50800d2" /># Hardware Libraries Workspace
+# Hardware Libraries Workspace
 
 Bu repository, çeşitli donanım projeleri ve kütüphanelerini içeren kapsamlı bir workspace'tir. Endüstriyel sensör modülleri, güç yönetimi çözümleri, drone kontrolcüleri ve eğitim projeleri gibi farklı alanlarda geliştirilmiş projeleri barındırır.
 
@@ -6,48 +6,48 @@ Bu repository, çeşitli donanım projeleri ve kütüphanelerini içeren kapsaml
 
 ### 🔧 Endüstriyel Sensör Modülleri
 - **Endüstriyel Sensör Modülü** - Endüstriyel uygulamalar için geliştirilmiş sensör modülü
-- <img width="1098" height="838" alt="endüstriyel" src="https://github.com/user-attachments/assets/94c93490-ac96-4e21-b89e-55715651109b" />
+  <img width="1098" height="838" alt="endüstriyel" src="https://github.com/user-attachments/assets/94c93490-ac96-4e21-b89e-55715651109b" />
 
 - **UKB_Ballica** - UKB (Ultrasonik Kuvvet Basınç) sensör modülü
-- <img width="997" height="829" alt="ukb" src="https://github.com/user-attachments/assets/e84c440a-eb27-43c1-a899-f54c8928cd56" />
+  <img width="997" height="829" alt="ukb" src="https://github.com/user-attachments/assets/e84c440a-eb27-43c1-a899-f54c8928cd56" />
 
 
 ### ⚡ Güç Yönetimi Çözümleri
 - **Güç Dağıtım Kartı** - Çoklu güç dağıtımı için tasarlanmış PCB
-- <img width="929" height="837" alt="pdb" src="https://github.com/user-attachments/assets/f8f0a886-4cb4-46eb-bfe8-a3ceaaee7cb6" />
+  <img width="929" height="837" alt="pdb" src="https://github.com/user-attachments/assets/f8f0a886-4cb4-46eb-bfe8-a3ceaaee7cb6" />
 
 - **LM2596 Buck Converter** - Step-down (düşürücü) DC-DC dönüştürücü modülü
-- <img width="1127" height="611" alt="lm2596" src="https://github.com/user-attachments/assets/78c93a23-d23e-4459-83a4-a4f1a5ee4ff1" />
+  <img width="1127" height="611" alt="lm2596" src="https://github.com/user-attachments/assets/78c93a23-d23e-4459-83a4-a4f1a5ee4ff1" />
 
 - **XL6009 Boost Converter** - Step-up (yükseltici) DC-DC dönüştürücü modülü
-- <img width="1127" height="611" alt="lm2596" src="https://github.com/user-attachments/assets/c5bf8bce-6db9-464e-8b90-7df7f3ba3e7f" />
+  <img width="1127" height="611" alt="lm2596" src="https://github.com/user-attachments/assets/c5bf8bce-6db9-464e-8b90-7df7f3ba3e7f" />
 
 
 ### 🚁 Drone ve Uçuş Kontrolcüleri
 - **flight-controller-for-dronmarket-main** - Drone market için özel uçuş kontrolcüsü
-- <img width="858" height="789" alt="fpv front" src="https://github.com/user-attachments/assets/65e032ba-3d9a-4080-9a32-e43691b13359" />
-<img width="878" height="790" alt="fpv back" src="https://github.com/user-attachments/assets/9d332f26-2a74-4d12-a5e6-2f7c23a3f95d" />
+  <img width="858" height="789" alt="fpv front" src="https://github.com/user-attachments/assets/65e032ba-3d9a-4080-9a32-e43691b13359" />
+  <img width="878" height="790" alt="fpv back" src="https://github.com/user-attachments/assets/9d332f26-2a74-4d12-a5e6-2f7c23a3f95d" />
 
 
 
 - **speedybeef4v4_clone** - SpeedyBee F4 V4 uçuş kontrolcüsü klonu
-- <img width="814" height="802" alt="speedybee front" src="https://github.com/user-attachments/assets/70c09f38-cfc5-45d3-9956-5405949b6534" />
-<img width="798" height="866" alt="speedybee back" src="https://github.com/user-attachments/assets/718d5841-602c-4b3d-a290-aeed9bd606b9" />
+  <img width="814" height="802" alt="speedybee front" src="https://github.com/user-attachments/assets/70c09f38-cfc5-45d3-9956-5405949b6534" />
+  <img width="798" height="866" alt="speedybee back" src="https://github.com/user-attachments/assets/718d5841-602c-4b3d-a290-aeed9bd606b9" />
 
 
 
 
 ### 📊 IMU ve Sensör Sürücüleri
 - **STM32-ICM42688-P** - ICM-42688-P IMU sensörü için STM32 sürücüsü
-- <img width="892" height="810" alt="icm" src="https://github.com/user-attachments/assets/0f6ce38e-d3ec-403f-93d5-05036eb34394" />
+  <img width="892" height="810" alt="icm" src="https://github.com/user-attachments/assets/0f6ce38e-d3ec-403f-93d5-05036eb34394" />
 
 - **stm32f103_bmi088** - BMI-088 IMU sensörü için STM32F103 sürücüsü
-- <img width="942" height="767" alt="bmi" src="https://github.com/user-attachments/assets/870821b7-a74e-4834-8884-76b1ef16738f" />
+  <img width="942" height="767" alt="bmi" src="https://github.com/user-attachments/assets/870821b7-a74e-4834-8884-76b1ef16738f" />
 
 
 ### 🎓 Eğitim Projeleri
-- **xBowtie Eğitim** - xBowtie platformu için eğitim materyalleri
-- <img width="1062" height="915" alt="xbowtie" src="https://github.com/user-attachments/assets/13f80340-d11d-4266-96d3-213f33f70256" />
+- **xBowtie Eğitim** - xBowtie platformu - Mustafa Berk Aydoğan - PCB Tasarım - Bir Elektronik Kartın Yaşam Döngüsü
+  <img width="1062" height="915" alt="xbowtie" src="https://github.com/user-attachments/assets/13f80340-d11d-4266-96d3-213f33f70256" />
 
 
 ## 🚀 Özellikler
