@@ -8,7 +8,7 @@ Bu repository, çeşitli donanım projeleri ve kütüphanelerini içeren kapsaml
 - **Endüstriyel Sensör Modülü** - Endüstriyel uygulamalar için geliştirilmiş sensör modülü
   <img width="1098" height="838" alt="endüstriyel" src="https://github.com/user-attachments/assets/94c93490-ac96-4e21-b89e-55715651109b" />
 
-- **UKB_Ballica** - UKB (Ultrasonik Kuvvet Basınç) sensör modülü
+- **UKB_Ballica** - UKB (Uçuş Kontrol Bilgisayarı) Sistemi
   <img width="997" height="829" alt="ukb" src="https://github.com/user-attachments/assets/e84c440a-eb27-43c1-a899-f54c8928cd56" />
 
 
@@ -69,8 +69,6 @@ Bu repository, çeşitli donanım projeleri ve kütüphanelerini içeren kapsaml
 | XL6009 Boost Converter | Güç Yönetimi | Step-up DC-DC dönüştürücü |
 | STM32-ICM42688-P | IMU/Sensör | ICM-42688-P STM32 sürücüsü |
 | stm32f103_bmi088 | IMU/Sensör | BMI-088 STM32F103 sürücüsü |
-| bmi-088-driver | IMU/Sensör | BMI-088 C sürücü kütüphanesi |
-| icm-42688-p-driver | IMU/Sensör | ICM-42688-P C sürücü kütüphanesi |
 | flight-controller-for-dronmarket-main | Drone | Drone market uçuş kontrolcüsü |
 | speedybeef4v4_clone | Drone | SpeedyBee F4 V4 klonu |
 | xBowtie Eğitim | Eğitim | xBowtie eğitim materyalleri |
@@ -78,10 +76,10 @@ Bu repository, çeşitli donanım projeleri ve kütüphanelerini içeren kapsaml
 ## 🛠️ Teknolojiler
 
 - **Mikrodenetleyiciler**: STM32F103, STM32F4, Arduino
-- **Sensörler**: BMI-088, ICM-42688-P, UKB sensörleri
-- **İletişim Protokolleri**: I2C, SPI, UART
-- **PCB Tasarım**: KiCad, Eagle
-- **Programlama**: C, C++, Arduino
+- **Sensörler**: BMI-088, ICM-42688-P, MPU9250, GPS M8N, MS5611 etc. 
+- **İletişim Protokolleri**: I2C, SPI, UART, RS232/485
+- **PCB Tasarım**: KiCad
+- **Programlama**: C, C++, Arduino, STM32
 - **Güç Yönetimi**: LM2596, XL6009
 
 
